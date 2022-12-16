@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container-fluid" id="title">
+        <div>
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <a class="navbar-brand" href="#"> Hero Cat's</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Featured Cats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Breeds of Cats</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More Information
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Testimonals/a></li>
+                                <li><a class="dropdown-item" href="#">Other Projects</a></li>
+                                <li><a class="dropdown-item" href="#">Contact Me</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div  id="headingRow" class="row">
+
+                <div class="col-lg-6 col-md-6" id="headingContainer">
+                    <h1>Our Little Hero's!</h1>
+                    <h2>They make our days better, <br /> even if they don't know it</h2>
+                    <div class="moveButtons">
+                    <button type="button" id=cats-button class="btn btn-dark "> <i  id="catButton" class="fa-brands fa-apple"></i> Download</button>
+                    <button type="button" id=cats-button class="btn btn-outline-light "> <i id="catButton" class="fa-brands fa-google-play"></i> Download</button>
+                </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6" id="featured">
+                    <img id="leoImage"src="./images/leo.jpg" alt="" srcset="">
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Features -->
+
+    <section class="container-fluid" id="features">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 featureList">
+                <i class="fa-regular fa-heart fa-4x"></i>
+                <h3>Easy To Use.</h3>
+                <p>So easy to use, your cat with press buttons on your keyboard and mess something up like always.</p>
+            </div>
+            <div class="col-lg-4 col-sm-12 featureList">
+                <i class="fa-regular fa-star fa-4x"></i>
+                <h3>Elite Clientele</h3>
+                <p>Everyone think's their cat is the best, and they're right.</p>
+            </div>
+            <div class="col-lg-4 col-sm-12 featureList">
+                <i class="fa-regular fa-face-smile fa-4x"></i>
+                <h3>Guaranteed to work.</h3>
+                <p>You won't hate spending time checking out our adorable cats!</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active data-bs-interval=6000">
+                    <h2>Every Picture of Me is truly my best side! I am a hero because I always make sure my parents are
+                        up playing
+                        with me every moment unless I am the one who wants to sleep!</h2>
+                    <img src="images/dog-img.jpg" alt="cat-profile" class="testimonal-image">
+                    <em>Hero, Boston</em>
+                </div>
+                <div class="carousel-item data-bs-interval=6000">
+
+                    <h2 class="testimonial-text">I just love featuring my little hero's on this website, I love seeing
+                        everyone elses too! You think you'd seen them all but everyone's hero is special in their own
+                        way. I wait every week to see the new posting!</h2>
+                    <img class="testimonal-image" src="images/lady-img.jpg" alt="lady-profile">
+                    <em>Beverly, Illinois</em>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- Press -->
+
+    <section id="press">
+        <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+        <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+        <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+        <img class="press-img" src="images/mashable.png" alt="mashable-logo">
+
+    </section>
+
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+
+        <div class="priceTitle">
+        <h2>Your cat's don't need to be shown off, but the world want's to see them.</h2>
+        <p>Simple and affordable price plans for your and your hero's!</p>
+    </div>
+
+
+        <div class="container-fluid" >
+            <div class="container p-5">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4">
+                  <div class="card h-100 shadow-lg">
+                    <div class="card-body">
+                      <div class="text-center p-3">
+                        <h5 class="card-title">Basic</h5>
+                        <small>1 Hero</small>
+                        <br><br>
+                        <span class="h2">Free</span>
+                        <br><br>
+                      </div>
+                      
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> 5 Pictures Per Day</li>
+                      <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> 10 Comments Per Day</li>
+                      <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> Unlimted App Usage</li>
+                    </ul>
+                    <div class="card-body text-center">
+                      <button class="btn btn-outline-danger btn-lg" style="border-radius:30px">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4">
+                  <div class="card h-100 shadow-lg">
+                    <div class="card-body">
+                      <div class="text-center p-3">
+                        <h5 class="card-title">Standard</h5>
+                        <small>2 Hero's</small>
+                        <br><br>
+                        <span class="h2">$20</span>/month 
+                        <br><br>
+                      </div>
+                     
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> Unlimited Pictures</li>
+                      <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> Unlimited Comments</li>
+                      <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> Unlimited App Usage</li>
+                    </ul>
+                    <div class="card-body text-center">
+                      <button class="btn btn-outline-danger btn-lg" style="border-radius:30px">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4">
+                  <div class="card h-100 shadow-lg">
+                    <div class="card-body">
+                      <div class="text-center p-3">
+                        <h5 class="card-title">Premium</h5>
+                        <small>3+ Hero's</small>
+                        <br><br>
+                        <span class="h2">$40</span>/month
+                        <br><br>
+                      </div>
+                      
+                    </div>
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> Pirority Pictures</li>
+                      <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> Unlimited Comments</li>
+                      <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                      </svg> Unlimited App Usage</li>
+                      
+                    </ul>
+                    <div class="card-body text-center">
+                      <button class="btn btn-outline-danger btn-lg" style="border-radius:30px">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+            </div>
+         
+        
+        
+
+    </section>
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+
+        <h3>Do what you enjoy, sit back, relax<br> and scroll through some hero's.</h3>
+        <div id="ctaButtons">
+        <button type="button" id=cats-button class="btn btn-dark "> <i  id="catButton" class="fa-brands fa-apple"></i> Download</button>
+        <button type="button" id=cats-button class="btn btn-outline-light "> <i id="catButton" class="fa-brands fa-google-play"></i> Download</button>
+    </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <p>© Copyright Hero Cat's</p>
+
+    </footer>
+
+
+</body>
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/2e8ff932b2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
